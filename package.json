@@ -1,0 +1,29 @@
+{
+  "name": "sample-class-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "api": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnates/sample-class-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnates/sample-class-01/issues"
+  },
+  "homepage": "https://github.com/bnates/sample-class-01#readme",
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
